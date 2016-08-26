@@ -69,7 +69,7 @@ function draw() {
  for(i=0;i<=1024;i+=64){
 	ctx.moveTo(i,0)
 	ctx.lineTo(i,height)
- } 
+ }
  for(t=0;t<=512;t+=64){
 	ctx.moveTo(0,t)
 	ctx.lineTo(width,t)
